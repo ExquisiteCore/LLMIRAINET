@@ -1,0 +1,49 @@
+{
+    "format_version": 1,
+    "tooth": "github.com/ExquisiteCore/LLMIRAINET",
+    "version": "2.1.3",
+    "information": {
+        "name": "LLMIRAI.NET",
+        "description": "xianyuplugin",
+        "author": "ExquisiteCore",
+        "license": "GPL",
+        "homepage": "https://github.com/ExquisiteCore/LLMIRAI.NET"
+    }, 
+    "placement": [
+        {
+            "source": "LLMIRAI.NET.dll",
+            "destination": "plugins/LLMIRAI.NET.dll"
+        },
+        {
+            "source": "lib/Flurl.dll",
+            "destination": "plugins/lib/Flurl.dll"
+        },
+        {
+            "source": "lib/Flurl.Http.dll",
+            "destination": "plugins/lib/Flurl.Http.dll"
+        },
+        {
+            "source": "lib/Manganese.dll",
+            "destination": "plugins/lib/Manganese.dll"
+        },
+        {
+            "source": "lib/Mirai.Net.dll",
+            "destination": "plugins/lib/Mirai.Net.dll"
+        },
+        {
+            "source": "lib/Newtonsoft.Json.dll",
+            "destination": "plugins/lib/Newtonsoft.Json.dll"
+        }, 
+        {
+            "source": "lib/System.Reactive.dll",
+            "destination": "plugins/lib/System.Reactive.dll"
+        },
+        {
+            "source": "lib/Websocket.Client.dll",
+            "destination": "plugins/lib/Websocket.Client.dll"
+        }
+    ],
+    "possession": [
+        "plugins/xianyuplugins/"
+    ]
+}
